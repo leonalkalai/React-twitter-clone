@@ -1,11 +1,10 @@
 import './App.css'
-import TwitterClone from './components/TwitterClone'
-import PropTypes from 'prop-types';
+import TwitterCloneComponent from './components/TwitterClone/TwitterCloneComponent'
 
 function App() {
   return (
     <>
-      <TwitterClone />
+      <TwitterCloneComponent />
     </>
   )
 }

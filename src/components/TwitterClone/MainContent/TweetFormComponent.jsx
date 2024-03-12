@@ -1,5 +1,5 @@
 
-export default function Tweet(){
+export default function TweetFormComponent(){
     return(
     <>
     <div className="flex">

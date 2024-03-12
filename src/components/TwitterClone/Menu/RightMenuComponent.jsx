@@ -1,5 +1,5 @@
 
-export default function RightMenu(){
+export default function RightMenuComponent(){
     return(
     <div className="w-2/5 h-12">
         {/*right menu*/}

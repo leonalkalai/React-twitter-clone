@@ -1,5 +1,5 @@
 
-export default function HomePad(){
+export default function TwitterHeaderComponent(){
     return(
 <div className="flex">
   <div className="flex-1 m-2">
