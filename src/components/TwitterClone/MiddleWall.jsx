@@ -20,7 +20,7 @@ const tweets = [
     profileImage:"https://raw.githubusercontent.com/leonalkalai/React-twitter-clone/main/src/assets/images/haivandoctor.jpg",
     userName: "ShonaDesign",
     publishDate: "16 April",
-    uploadedImage: "https://raw.githubusercontent.com/leonalkalai/React-twitter-clone/main/src/assets/images/haivandoctorimage.jpg&auto=format&fit=crop&w=448&q=80",
+    uploadedImage: "https://raw.githubusercontent.com/leonalkalai/React-twitter-clone/main/src/assets/images/haivandoctorimage.jpg",
     text:`Day 07 of the challenge <span className="text-blue-400">#100DaysOfCode</span> 
     I was wondering what I can do with <span className="text-blue-400">#tailwindcss</span>, so just started building Twitter  UI using Tailwind and so far it looks so promising. I will post my code after completion.
     [07/100]
