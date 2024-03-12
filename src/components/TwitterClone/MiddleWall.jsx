@@ -5,8 +5,8 @@ import parse from 'html-react-parser';
 
 const tweets = [
   {
-    name:"Sixtir Doulap",
-    profileImage:"https://pbs.twimg.com/profile_images/1121328878142853120/e-rpjoJi_bigger.png",
+    name:"Embrime Kounoup",
+    profileImage:"https://raw.githubusercontent.com/leonalkalai/React-twitter-clone/main/src/assets/images/embrimekounoup.jpg",
     userName: "ShonaDesign",
     publishDate: "16 April",
     uploadedImage: "",
@@ -16,8 +16,8 @@ const tweets = [
     <span className="text-blue-400"> #WomenWhoCode #CodeNewbie</span>`
   },
   {
-    name:"Haivan Mandri",
-    profileImage:"https://pbs.twimg.com/profile_images/1121328878142853120/e-rpjoJi_bigger.png",
+    name:"Haivan Doctor",
+    profileImage:"https://raw.githubusercontent.com/leonalkalai/React-twitter-clone/main/src/assets/images/haivandoctor.jpg",
     userName: "ShonaDesign",
     publishDate: "16 April",
     uploadedImage: "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=448&q=80",
@@ -28,7 +28,7 @@ const tweets = [
   },
   {
     name:"Tamam Bereket",
-    profileImage:"https://pbs.twimg.com/profile_images/1121328878142853120/e-rpjoJi_bigger.png",
+    profileImage:"https://raw.githubusercontent.com/leonalkalai/React-twitter-clone/main/src/assets/images/tamambereket.jpg",
     userName: "ShonaDesign",
     publishDate: "16 April",
     uploadedImage: "",
