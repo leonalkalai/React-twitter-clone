@@ -5,8 +5,8 @@ FollowerComponent.propTypes = {
     name:PropTypes.string.isRequired,
     profileImage:PropTypes.string.isRequired,
     userName:PropTypes.string.isRequired,
+    publishDate:PropTypes.string.isRequired,
 }
-
 
 export default function FollowerComponent(props){
   return(

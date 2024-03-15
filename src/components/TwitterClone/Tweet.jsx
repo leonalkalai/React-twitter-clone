@@ -7,7 +7,6 @@ Tweet.propTypes = {
     name:PropTypes.string.isRequired,
     profileImage:PropTypes.string.isRequired,
     userName:PropTypes.string.isRequired,
-    publishDate:PropTypes.string.isRequired,
     uploadedImage:PropTypes.string.isRequired,
     text:PropTypes.array.isRequired
 }
@@ -16,7 +15,7 @@ Tweet.propTypes = {
   export default function Tweet(props){
     return(
     <>
-       <FollowerComponent name={props.name} profileImage={props.profileImage} userName={props.userName}/>
+       <FollowerComponent name={props.name} profileImage={props.profileImage} userName={props.userName} publishDate={props.publishDate}/>
       <div className="pl-16">
         <p className="text-base width-auto font-medium text-white flex-shrink">
             {props.text}

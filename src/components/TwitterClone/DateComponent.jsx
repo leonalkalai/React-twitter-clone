@@ -19,16 +19,16 @@ It's telling the method to format the day as a two-digit number and the month as
 import PropTypes from 'prop-types';
 
 DateComponent.propTypes = { 
-    publishDate:PropTypes.instanceOf(Date)
+    publishDate:PropTypes.string.isRequired,
 }
 
 export default function DateComponent(props){
-        const options = { day: '2-digit', month: 'long' };
-        // Parse the date string to a Date object
-        const parsedDate = new Date(props.date);
-
-        const formattedDate = parsedDate.toLocaleDateString('en-US', { day: '2-digit', month: 'long' });
-
+  
+      const options = { day: '2-digit', month: 'long' ,year: 'numeric'};
+      // Parse the date string to a Date object
+       const parsedDate = new Date(props.publishDate);
+      
+        const formattedDate = parsedDate.toLocaleDateString('en-US', options);
         return (
             <>
             {formattedDate}
